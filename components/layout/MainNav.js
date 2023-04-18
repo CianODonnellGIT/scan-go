@@ -3,9 +3,9 @@ import DoorAccessLog from "../comp/DoorAccessLog";
 import AddEmp from "../comp/AddEmp";
 import EditEmp from "../comp/EditEmployee";
 import EmpList from "../comp/EmployeeList";
-import styles from './MainNav.module.css';
-import { useRouter } from 'next/router';
-import Link from 'next/link';
+import styles from "./MainNav.module.css";
+import { useRouter } from "next/router";
+import Link from "next/link";
 
 
 
@@ -49,7 +49,7 @@ function MainNavigation() {
   
 
   function goHome(){
-    router.push('/main')
+    router.push("/main")
     setShowTable(false);
     setEmpList(false);
     setAddEmp(false);
@@ -69,9 +69,9 @@ function MainNavigation() {
       <div className={styles.logo} onClick = {() => goHome()} >Scan  Go Systems</div>
       <nav>
         <ul>
-            <Link href='/employeeCRUD' className={styles.crudL}>CRUD</Link>
+            <Link href="/employeeCRUD" className={styles.crudL}>CRUD</Link>
           <li>
-            <Link href='/'>Logout</Link>
+            <Link href="/">Logout</Link>
           </li>
         </ul>
       </nav>
