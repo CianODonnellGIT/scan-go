@@ -92,7 +92,7 @@ function MainNavigation() {
         <footer className={styles.footer}>
           <p>Scan  Go </p>
           <t> Final Year Project </t>
-          <t>Cian O'Donnell</t>
+          <t>Cian O Donnell</t>
           <t>G00358872</t>
           <p1>
           <a
