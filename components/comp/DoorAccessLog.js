@@ -32,7 +32,7 @@ function DoorAccessLog(){
             </div>
             <section>
                 <div className={styles.read}>
-                 <h2>Databsae Table</h2>
+                 <h2>Database Table</h2>
                  <div className={styles.list}>
                     
                     {employee1.map((item,index) => {
@@ -46,7 +46,7 @@ function DoorAccessLog(){
                             </div>
                         );
                     })}
-                    {!employee1.length ? <>No Data In Table</> : null}
+                    {!employee1.length ? <>No Data in Table</> : null}
                  </div>
                 </div>
             </section>
