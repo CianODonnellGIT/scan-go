@@ -6,7 +6,6 @@ import Login from '../components/comp/Login'
 
 import { useState, useRef, useEffect } from 'react'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   
