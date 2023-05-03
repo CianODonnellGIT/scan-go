@@ -39,7 +39,7 @@ export default function Login() {
           <h3>Sign In</h3>
           <nav>
             <ul>            
-              <Link className={styles.butto} href='/api/auth/login'>Login</Link>             
+              <Link className={styles.button} href='/api/auth/login'>Login</Link>             
             </ul>
           </nav>
         </div>
