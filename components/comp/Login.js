@@ -20,7 +20,11 @@ export default function Login() {
           <div className={styles.main}>
             <h1 className={styles.head}>Welcome</h1>
             <h3 className={styles.success}>Sign in successful</h3>
-            <Link className={styles.button} href="/main">Continue to Main</Link>
+            <nav>
+              <ul>
+                <Link className={styles.button} href='/main'>Continue to Main</Link>  
+              </ul>
+            </nav>
           </div>
         </div>
       </>
@@ -33,7 +37,11 @@ export default function Login() {
         <div className={styles.main}>
           <h1 className={styles.head}>Employee Logs</h1>
           <h3>Sign In</h3>
-            <Link className={styles.button} href='/api/auth/login'>Login</Link>
+          <nav>
+            <ul>            
+              <Link className={styles.button} href='/api/auth/login'>Login</Link>             
+            </ul>
+          </nav>
         </div>
       </div>
     </>

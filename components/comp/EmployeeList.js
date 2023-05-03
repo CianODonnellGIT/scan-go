@@ -16,7 +16,7 @@ function EmpList() {
         "Content-Type": "application/json",
       },
     };
-    const res = await fetch('https://main.d2xu1i4qh95c6u.amplifyapp.com/api/crud',
+    const res = await fetch('http://localhost:3000/api/crud',
       getEmpdata
     );
     const response = await res.json();
@@ -34,7 +34,7 @@ function EmpList() {
         ID: id,
       })
     };
-    const res = await fetch('https://main.d2xu1i4qh95c6u.amplifyapp.com/api/crud',
+    const res = await fetch('http://localhost:3000/api/crud',
       deleteEmpdata
     );
     const response = await res.json();
