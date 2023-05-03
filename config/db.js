@@ -3,11 +3,11 @@ import mysql from "mysql2/promise";
 export async function query({query, value = []}){
 
     const mySQLconnect = await mysql.createConnection({
-        host: "fyp-database.cauvst9l0ldn.eu-west-1.rds.amazonaws.com",
-        user: "admin",
-        password:"firstData&",
-        port: 3306,
-        database: "fypdb"
+        host: process.env.SQL_Host,
+        user: process.env.SQL_User,
+        password: process.env.SQL_Pass,
+        port: process.env.SQL_Port,
+        database: process.env.SQL_Database
     });
 
     try{
@@ -18,3 +18,4 @@ export async function query({query, value = []}){
         throw Error(error.message);
     }
 }
+
