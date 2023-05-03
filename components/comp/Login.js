@@ -22,7 +22,7 @@ export default function Login() {
             <h3 className={styles.success}>Sign in successful</h3>
             <nav>
               <ul>
-                <Link className={styles.button} href='/main'>Continue to Main</Link>  
+                <Link href='/main'>Continue to Main</Link>  
               </ul>
             </nav>
           </div>
@@ -39,7 +39,7 @@ export default function Login() {
           <h3>Sign In</h3>
           <nav>
             <ul>            
-              <Link className={styles.button} href='/api/auth/login'>Login</Link>             
+              <Link href='/api/auth/login'>Login</Link>             
             </ul>
           </nav>
         </div>

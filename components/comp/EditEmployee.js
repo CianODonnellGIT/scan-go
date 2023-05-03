@@ -33,7 +33,7 @@ function EditEmp() {
         Role: updateEmployeeRole,
       })
     };
-    const res = await fetch('http://localhost:3000/api/crud',
+    const res = await fetch('https://main.dshngqz5l8v9y.amplifyapp.com/api/crud',
       putEmpdata
     );
     const response = await res.json();
