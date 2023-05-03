@@ -7,7 +7,7 @@ export async function query({query, value = []}){
         user: 'admin',
         password: 'firstData&',
         port: 3306,
-        database: 'fypbd'
+        database: 'fypdb'
     });
 
     try{
