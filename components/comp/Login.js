@@ -20,7 +20,7 @@ export default function Login() {
           <div className={styles.main}>
             <h1 className={styles.head}>Welcome</h1>
             <h3 className={styles.success}>Sign in successful</h3>
-            <a className={styles.button} href="/main">Continue to Main</a>
+            <Link className={styles.button} href="/main">Continue to Main</Link>
           </div>
         </div>
       </>
